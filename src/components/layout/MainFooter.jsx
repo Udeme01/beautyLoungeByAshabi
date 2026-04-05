@@ -1,30 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
-const pages = [
-  { label: "Shop", href: "/shop" },
-  { label: "Bridal Hair", href: "/bridal" },
-  { label: "Hair Revamp", href: "/revamp" },
-  { label: "Reviews", href: "/reviews" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
-];
-
-const socials = [
-  { label: "Instagram", href: "https://instagram.com/beautyloungebyashabi" },
-  { label: "TikTok", href: "https://tiktok.com/@beautyloungebyashabi" },
-  { label: "Facebook", href: "https://facebook.com/beautyloungebyashabi" },
-  { label: "YouTube", href: "https://youtube.com/@beautyloungebyashabi" },
-];
-
-const faqs = [
-  { label: "How do I place an order", href: "/contact#how-to-order" },
-  { label: "How long does delivery take", href: "/contact#delivery" },
-  { label: "Do you have a pick up location", href: "/contact#pickup" },
-  { label: "Do you sell in wholesale", href: "/contact#wholesale" },
-  { label: "Can I pay on delivery", href: "/contact#payment" },
-];
+import { pages, faqs, socials } from "@/data/footer";
 
 export default function Footer() {
   return (
@@ -90,7 +67,9 @@ export default function Footer() {
 
         {/* FAQs */}
         <section>
-          <p className="text-white text-sm tracking-widest mb-5 font-cormorant">FAQs</p>
+          <p className="text-white text-sm tracking-widest mb-5 font-cormorant">
+            FAQs
+          </p>
           <ul className="space-y-3">
             {faqs.map(({ label, href }) => (
               <li key={label}>
@@ -111,18 +90,22 @@ export default function Footer() {
             Follow
           </p>
           <ul className="space-y-3 mb-8">
-            {socials.map(({ label, href }) => (
-              <li key={label}>
-                <Link
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-gold transition-colors duration-200"
-                >
-                  {label}
-                </Link>
-              </li>
-            ))}
+            {socials.map((value) => {
+              const { label, href, icon } = value;
+              return (
+                <li key={label}>
+                  <Link
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gold transition-colors duration-200 flex gap-2 items-center"
+                  >
+                    {icon}
+                    <p>{label}</p>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
           <p className="text-white text-sm tracking-widest uppercase mb-3 font-cormorant">
             Call / WhatsApp
