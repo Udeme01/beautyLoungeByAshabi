@@ -79,8 +79,7 @@ export default function PromoBanner() {
 
         {/* CTA */}
         <Link
-          //   href={PROMO.ctaHref}
-          href="#"
+          href={PROMO.ctaHref}
           className="shrink-0 bg-black text-gold text-xs tracking-widest uppercase px-8 py-3 hover:bg-zinc-900 transition-colors duration-200"
         >
           {PROMO.cta}

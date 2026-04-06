@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#5C4F43] w-full font-dmSans">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/images/img01.jpg')] bg-top bg-cover bg-no-repeat w-screen" />
+      <div className="absolute inset-0 bg-[url('/images/theFounder.jpg')] bg-top bg-cover bg-no-repeat w-screen" />
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
 
@@ -32,7 +32,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="#"
+            href="/shop"
             className="w-full sm:w-auto bg-gold text-black text-xs tracking-widest uppercase px-10 py-4 hover:bg-gold-light transition-colors duration-200 font-medium"
           >
             Shop Collection

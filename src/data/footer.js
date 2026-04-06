@@ -2,7 +2,7 @@ import { BsInstagram, BsTiktok, BsFacebook, BsYoutube } from "react-icons/bs";
 import GoogleIcon from "@/components/icons/GoogleIcon";
 
 export const pages = [
-  { label: "Shop", href: "#" },
+  { label: "Shop", href: "/shop" },
   { label: "Bridal Hair", href: "#" },
   { label: "Hair Revamp", href: "#" },
   { label: "Reviews", href: "#" },

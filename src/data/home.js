@@ -3,28 +3,28 @@ export const products = [
     id: 1,
     name: "Loose Wave Frontal Wig",
     price: "₦85,000",
-    image: "/images/img02.jpg",
+    image: "/images/product02.jpeg",
     category: "Human Hair",
   },
   {
     id: 2,
     name: "Body Wave Full Lace",
     price: "₦95,000",
-    image: "/images/img01.jpg",
+    image: "/images/product07.jpeg",
     category: "Human Hair",
   },
   {
     id: 3,
     name: "Kinky Curly Blend",
     price: "₦55,000",
-    image: "/images/img02.jpg",
+    image: "/images/product04.jpeg",
     category: "Hair Blend",
   },
   {
     id: 4,
     name: "Bone Straight Wig",
     price: "₦75,000",
-    image: "/images/img01.jpg",
+    image: "/images/product01.jpeg",
     category: "Human Hair",
   },
 ];
@@ -35,28 +35,28 @@ export const categories = [
     desc: "100% virgin hair",
     href: "#",
     // href: "/shop?cat=human-hair",
-    image: "/images/img02.jpg",
+    image: "/images/product07.jpeg",
   },
   {
     label: "Wigs",
     desc: "Lace front & full lace",
     href: "#",
     // href: "/shop?cat=wigs",
-    image: "/images/img01.jpg",
+    image: "/images/product01.jpeg",
   },
   {
     label: "Hair Blends",
     desc: "Affordable & natural",
     href: "#",
     // href: "/shop?cat=blends",
-    image: "/images/img02.jpg",
+    image: "/images/product05.jpeg",
   },
   {
     label: "Bridal Hair",
     desc: "Your perfect wedding look",
     href: "#",
     // href: "/bridal",
-    image: "/images/img02.jpg",
+    image: "/images/product06.jpeg",
   },
 ];
 
@@ -91,35 +91,37 @@ const Star = () => (
 export const posts = [
   {
     id: 1,
-    image: "/images/img01.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product01.jpeg",
+    href: "https://www.instagram.com/reel/DTi2hmJDYyJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 2,
-    image: "/images/img02.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product02.jpeg",
+    href: "https://www.instagram.com/reel/DTe7J90DQxA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 3,
-    image: "/images/img01.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product03.jpeg",
+    href: "https://www.instagram.com/reel/DTbGLeWjTGV/?utm_source=ig_web_copy_linkttps://instagram.com/beautyloungebyashabi",
   },
   {
     id: 4,
-    image: "/images/img02.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product04.jpeg",
+    href: "https://www.instagram.com/reel/DTaIdlVDb0o/?utm_source=ig_web_copy_linknstagram.com/beautyloungebyashabi",
   },
   {
     id: 5,
-    image: "/images/img01.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product05.jpeg",
+    href: "https://www.instagram.com/reel/DTNoHYsDfss/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: 6,
-    image: "/images/img02.jpg",
-    href: "https://instagram.com/beautyloungebyashabi",
+    image: "/images/product06.jpeg",
+    href: "https://www.instagram.com/reel/DWVxpq8DS0d/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
 ];
+
+// product07 - https://www.instagram.com/reel/DSehmG9DeZo/?utm_source=ig_web_copy_link
 
 export const faqs = [
   {

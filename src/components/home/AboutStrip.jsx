@@ -9,7 +9,7 @@ export default function AboutStrip() {
         <div className="relative">
           <div className="aspect-4/5 overflow-hidden">
             <Image
-              src="/images/founder.jpg"
+              src="/images/theFounder.jpg"
               alt="Ashabi — Creative Director"
               width={800}
               height={1000}

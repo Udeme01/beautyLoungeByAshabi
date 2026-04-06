@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const links = [
-  { label: "Shop", href: "#" },
+  { label: "Shop", href: "/shop" },
   { label: "Bridal", href: "#" },
   { label: "Revamp", href: "#" },
   { label: "Reviews", href: "#" },
@@ -24,8 +24,8 @@ export default function MainHeader() {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 font-dmSans ${
         scrolled
-          ? "bg-black/50 shadow-lg shadow-black/40 backdrop-blur-3xl"
-          : "bg-transparent"
+          ? "bg-black/80 shadow-lg shadow-black/40 backdrop-blur-3xl"
+          : "bg-black/70"
       }`}
     >
       {/* Top strip */}
@@ -63,7 +63,7 @@ export default function MainHeader() {
 
         {/* Desktop CTA */}
         <Link
-          href="/contact"
+          href="#"
           className="hidden bg-gold-light text-black font-semibold border border-gold hover:bg-gold md:inline-flex items-center gap-2 text-xs tracking-widest uppercase px-5 py-2.5 transition-all duration-200"
         >
           Order Now
@@ -89,6 +89,7 @@ export default function MainHeader() {
       </nav>
 
       {/* Mobile menu */}
+
       <nav
         className={`md:hidden bg-white backdrop-blur-3xl overflow-hidden transition-all duration-300 ${open ? "max-h-96 py-4" : "max-h-0"}`}
       >

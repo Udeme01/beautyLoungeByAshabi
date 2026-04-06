@@ -6,7 +6,7 @@ import FeaturedProducts from "@/components/home/FeaturedProducts";
 import Hero from "@/components/home/Hero";
 import InstagramFeed from "@/components/home/InstagramFeed";
 import PromoBanner from "@/components/home/PromoBanner";
-import PromoPopup from "@/components/home/PromoPopup";
+// import PromoPopup from "@/components/home/PromoPopup";
 import Reviews from "@/components/home/Reviews";
 import TrustBar from "@/components/home/TrustBar";
 
