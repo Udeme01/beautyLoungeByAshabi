@@ -24,7 +24,7 @@ export default function InstagramFeed() {
 
         <div className="grid grid-cols-3 md:grid-cols-6 gap-1.5">
           {posts.map(({ id, image, href }) => (
-            <a
+            <Link
               key={id}
               href={href}
               target="_blank"
@@ -45,19 +45,19 @@ export default function InstagramFeed() {
                   className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 />
               </div>
-            </a>
+            </Link>
           ))}
         </div>
 
         <div className="text-center mt-8">
-          <a
+          <Link
             href="https://instagram.com/beautyloungebyashabi"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-gold/30 text-black/50 text-xs tracking-widest uppercase px-8 py-3 hover:border-gold hover:text-gold transition-colors duration-200 inline-block"
           >
             Follow on Instagram
-          </a>
+          </Link>
         </div>
       </div>
     </section>

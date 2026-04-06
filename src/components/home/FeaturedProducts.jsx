@@ -40,14 +40,14 @@ export default function FeaturedProducts() {
                   {category}
                 </span>
                 {/* Quick order overlay */}
-                <a
+                <Link
                   href={`https://wa.me/2348034530840?text=Hi, I'm interested in the ${name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute inset-x-0 bottom-0 bg-[#25D366] text-white text-xs tracking-wide py-3 flex items-center justify-center gap-2 translate-y-full group-hover:translate-y-0 transition-transform duration-300"
                 >
                   <FaWhatsapp size={14} /> Order on WhatsApp
-                </a>
+                </Link>
               </div>
               <p className="text-white/80 text-sm">{name}</p>
               <p className="text-gold text-sm font-medium">{price}</p>

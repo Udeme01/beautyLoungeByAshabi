@@ -1,5 +1,6 @@
 import { reviews } from "@/data/home";
 import { Star } from "lucide-react";
+import Link from "next/link";
 
 export default function Reviews() {
   return (
@@ -41,12 +42,12 @@ export default function Reviews() {
         </div>
 
         <div className="text-center mt-10">
-          <a
+          <Link
             href="#"
             className="text-black/40 hover:text-gold text-xs tracking-widest uppercase transition-colors duration-200"
           >
             Read All Reviews →
-          </a>
+          </Link>
         </div>
       </div>
     </section>

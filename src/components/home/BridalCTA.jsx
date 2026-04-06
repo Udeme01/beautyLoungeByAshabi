@@ -32,7 +32,7 @@ export default function BridalCTA() {
           >
             See Bridal Packages
           </Link>
-          <a
+          <Link
             // href="https://wa.me/2348034530840?text=Hi, I'd like to enquire about bridal hair"
             href="#"
             // target="_blank"
@@ -40,7 +40,7 @@ export default function BridalCTA() {
             className="w-full sm:w-auto border border-black/30 text-black text-xs tracking-widest uppercase px-10 py-4 hover:border-gold hover:text-gold transition-colors duration-200"
           >
             Book a Consultation
-          </a>
+          </Link>
         </div>
       </div>
     </section>
