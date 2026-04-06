@@ -7,8 +7,6 @@
 
 @theme inline {
   /* COLORS */
-  /* --color-background: var(--background); */
-  /* --color-foreground: var(--foreground); */
 
   --color-gold: #c9a84c;
   --color-gold-light: #e8c97a;
@@ -26,9 +24,4 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-  /* background: var(--background); */
-  /* color: var(--foreground); */
 }

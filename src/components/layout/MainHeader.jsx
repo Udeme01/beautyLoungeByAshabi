@@ -23,7 +23,7 @@ export default function MainHeader() {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 font-dmSans ${
-        scrolled ? "bg-white shadow-lg shadow-black/40" : "bg-transparent"
+        scrolled ? "bg-black/50 shadow-lg shadow-black/40 backdrop-blur-3xl" : "bg-transparent"
       }`}
     >
       {/* Top strip */}
@@ -38,7 +38,7 @@ export default function MainHeader() {
           <span className="text-xl font-semibold tracking-widest text-gold">
             Beauty Lounge
           </span>
-          <span className="text-[10px] tracking-[0.25em] uppercase text-black">
+          <span className={`text-[10px] tracking-[0.25em] uppercase text-white`}>
             by Ashabi
           </span>
         </Link>
@@ -49,7 +49,7 @@ export default function MainHeader() {
             <li key={label}>
               <Link
                 href={href}
-                className="text-black text-sm tracking-wide transition-colors duration-200 hover:text-gold"
+                className="text-white text-sm tracking-wide transition-colors duration-200 hover:text-gold"
               >
                 {label}
               </Link>
@@ -73,20 +73,20 @@ export default function MainHeader() {
           aria-label="Toggle menu"
         >
           <span
-            className={`block w-6 h-px bg-black transition-all duration-300 ${open ? "rotate-45 translate-y-2" : ""}`}
+            className={`block w-6 h-px bg-white transition-all duration-300 ${open ? "rotate-45 translate-y-2" : ""}`}
           />
           <span
-            className={`block w-6 h-px bg-black transition-all duration-300 ${open ? "opacity-0" : ""}`}
+            className={`block w-6 h-px bg-white transition-all duration-300 ${open ? "opacity-0" : ""}`}
           />
           <span
-            className={`block w-6 h-px bg-black transition-all duration-300 ${open ? "-rotate-45 -translate-y-2" : ""}`}
+            className={`block w-6 h-px bg-white transition-all duration-300 ${open ? "-rotate-45 -translate-y-2" : ""}`}
           />
         </button>
       </nav>
 
       {/* Mobile menu */}
       <nav
-        className={`md:hidden bg-white/95 border-t border-black/10 overflow-hidden transition-all duration-300 ${open ? "max-h-96 py-4" : "max-h-0"}`}
+        className={`md:hidden bg-white backdrop-blur-3xl overflow-hidden transition-all duration-300 ${open ? "max-h-96 py-4" : "max-h-0"}`}
       >
         <ul className="flex flex-col px-5 gap-1">
           {links.map(({ label, href }) => (
