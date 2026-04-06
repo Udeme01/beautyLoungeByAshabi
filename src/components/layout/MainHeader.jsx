@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const links = [
   { label: "Shop", href: "/shop" },
@@ -14,6 +15,9 @@ export default function MainHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const pathname = usePathname();
+  const homepage = pathname === "/";
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", onScroll);
@@ -25,7 +29,7 @@ export default function MainHeader() {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 font-dmSans ${
         scrolled
           ? "bg-black/80 shadow-lg shadow-black/40 backdrop-blur-3xl"
-          : "bg-black/70"
+          : `${homepage ? "bg-transparent" : "bg-black"}`
       }`}
     >
       {/* Top strip */}

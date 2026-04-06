@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 bg-[url('/images/theFounder.jpg')] bg-top bg-cover bg-no-repeat w-screen" />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/75" />
 
       {/* Decorative gold line */}
       <div className="absolute left-8 top-1/2 -translate-y-1/2 hidden lg:flex flex-col items-center gap-3">
@@ -26,7 +26,7 @@ export default function Hero() {
           <br />
           <span className="text-gold italic">Through Your Crown</span>
         </h1>
-        <p className="text-white/60 text-sm md:text-base leading-relaxed mb-10 max-w-xl mx-auto tracking-wider">
+        <p className="text-white text-sm md:text-base leading-relaxed mb-10 max-w-xl mx-auto tracking-wider">
           Human hair wigs, blends, and bridal hair crafted for the modern
           Nigerian woman. Over 1,000 satisfied clients and counting.
         </p>

@@ -4,11 +4,8 @@ export default function BridalCTA() {
   return (
     <section className="relative overflow-hidden py-24 px-5 font-dmSans">
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
-        style={{ backgroundImage: "url('/images/bridal-bg.jpg')" }}
-      />
-      {/* <div className="absolute inset-0 bg-linear-to-r from-black via-black/80 to-transparent" /> */}
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 bg-[url('/images/bridal.jpeg')]" />
+      <div className="absolute inset-0 bg-linear-to-r from-black/40 via-black/50 to-black/60" />
 
       {/* Gold border top */}
       <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-gold/50 to-transparent" />
@@ -23,7 +20,7 @@ export default function BridalCTA() {
           <br />
           <span className="italic text-gold">Wedding Hair?</span>
         </h2>
-        <p className="text-black/60 leading-relaxed mb-10 max-w-md mx-auto">
+        <p className="text-black/80 leading-relaxed mb-10 max-w-md mx-auto">
           Let us crown your most important day. From consultations to the final
           look — we handle every detail of your bridal hair experience.
         </p>
