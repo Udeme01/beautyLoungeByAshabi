@@ -32,13 +32,13 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="/shop"
+            href="#"
             className="w-full sm:w-auto bg-gold text-black text-xs tracking-widest uppercase px-10 py-4 hover:bg-gold-light transition-colors duration-200 font-medium"
           >
             Shop Collection
           </Link>
           <Link
-            href="/bridal"
+            href="#"
             className="w-full sm:w-auto border border-white/40 text-white text-xs tracking-widest uppercase px-10 py-4 hover:border-gold hover:text-gold transition-colors duration-200"
           >
             Book Bridal
@@ -47,12 +47,12 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <p className="text-white/30 text-[10px] tracking-widest uppercase">
           Scroll
         </p>
         <div className="w-px h-10 bg-linear-to-b from-white/30 to-transparent" />
-      </div> */}
+      </div>
     </section>
   );
 }

@@ -41,7 +41,7 @@ export default function AboutStrip() {
             built on the trust of over 1,000 satisfied clients across Nigeria.
           </p>
           <Link
-            href="/about"
+            href="#"
             className="inline-flex items-center gap-2 text-gold text-xs tracking-widest uppercase border-b border-gold/40 pb-1 hover:border-gold transition-colors duration-200"
           >
             Our Full Story →

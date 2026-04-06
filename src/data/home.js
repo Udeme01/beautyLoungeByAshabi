@@ -33,25 +33,29 @@ export const categories = [
   {
     label: "Human Hair",
     desc: "100% virgin hair",
-    href: "/shop?cat=human-hair",
+    href: "#",
+    // href: "/shop?cat=human-hair",
     image: "/images/img02.jpg",
   },
   {
     label: "Wigs",
     desc: "Lace front & full lace",
-    href: "/shop?cat=wigs",
+    href: "#",
+    // href: "/shop?cat=wigs",
     image: "/images/img01.jpg",
   },
   {
     label: "Hair Blends",
     desc: "Affordable & natural",
-    href: "/shop?cat=blends",
+    href: "#",
+    // href: "/shop?cat=blends",
     image: "/images/img02.jpg",
   },
   {
     label: "Bridal Hair",
     desc: "Your perfect wedding look",
-    href: "/bridal",
+    href: "#",
+    // href: "/bridal",
     image: "/images/img02.jpg",
   },
 ];

@@ -58,7 +58,7 @@ export default function FeaturedProducts() {
         {/* Mobile view all */}
         <div className="mt-10 text-center md:hidden">
           <Link
-            href="/shop"
+            href="#"
             className="border border-gold/40 text-black/60 text-xs tracking-widest uppercase px-8 py-3 hover:border-gold hover:text-gold transition-colors duration-200"
           >
             View All Products

@@ -27,24 +27,24 @@ export default function BridalCTA() {
           Let us crown your most important day. From consultations to the final
           look — we handle every detail of your bridal hair experience.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
-            href="/bridal"
+            href="#"
             className="w-full sm:w-auto bg-gold text-black text-xs tracking-widest uppercase px-10 py-4 hover:bg-gold-light transition-colors duration-200 font-medium"
           >
             See Bridal Packages
           </Link>
           <a
-            href="https://wa.me/2348034530840?text=Hi, I'd like to enquire about bridal hair"
-            target="_blank"
+            // href="https://wa.me/2348034530840?text=Hi, I'd like to enquire about bridal hair"
+            href="#"
+            // target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto border border-black/30 text-black text-xs tracking-widest uppercase px-10 py-4 hover:border-gold hover:text-gold transition-colors duration-200"
           >
             Book a Consultation
           </a>
         </div>
-
       </div>
     </section>
   );

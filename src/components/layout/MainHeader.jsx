@@ -3,11 +3,11 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const links = [
-  { label: "Shop", href: "/shop" },
-  { label: "Bridal", href: "/bridal" },
-  { label: "Revamp", href: "/revamp" },
-  { label: "Reviews", href: "/reviews" },
-  { label: "About", href: "/about" },
+  { label: "Shop", href: "#" },
+  { label: "Bridal", href: "#" },
+  { label: "Revamp", href: "#" },
+  { label: "Reviews", href: "#" },
+  { label: "About", href: "#" },
 ];
 
 export default function MainHeader() {
@@ -23,7 +23,9 @@ export default function MainHeader() {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 font-dmSans ${
-        scrolled ? "bg-black/50 shadow-lg shadow-black/40 backdrop-blur-3xl" : "bg-transparent"
+        scrolled
+          ? "bg-black/50 shadow-lg shadow-black/40 backdrop-blur-3xl"
+          : "bg-transparent"
       }`}
     >
       {/* Top strip */}
@@ -38,7 +40,9 @@ export default function MainHeader() {
           <span className="text-xl font-semibold tracking-widest text-gold">
             Beauty Lounge
           </span>
-          <span className={`text-[10px] tracking-[0.25em] uppercase text-white`}>
+          <span
+            className={`text-[10px] tracking-[0.25em] uppercase text-white`}
+          >
             by Ashabi
           </span>
         </Link>
@@ -110,7 +114,6 @@ export default function MainHeader() {
           </li>
         </ul>
       </nav>
-
     </header>
   );
 }

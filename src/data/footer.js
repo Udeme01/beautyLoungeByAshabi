@@ -2,12 +2,12 @@ import { BsInstagram, BsTiktok, BsFacebook, BsYoutube } from "react-icons/bs";
 import GoogleIcon from "@/components/icons/GoogleIcon";
 
 export const pages = [
-  { label: "Shop", href: "/shop" },
-  { label: "Bridal Hair", href: "/bridal" },
-  { label: "Hair Revamp", href: "/revamp" },
-  { label: "Reviews", href: "/reviews" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Shop", href: "#" },
+  { label: "Bridal Hair", href: "#" },
+  { label: "Hair Revamp", href: "#" },
+  { label: "Reviews", href: "#" },
+  { label: "About", href: "#" },
+  { label: "Contact", href: "#" },
 ];
 
 export const socials = [

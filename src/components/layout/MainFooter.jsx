@@ -25,13 +25,13 @@ export default function Footer() {
       </section>
 
       {/* Main footer grid */}
-      <main className="max-w-6xl mx-auto px-5 py-14 grid grid-cols-2 md:grid-cols-4 gap-10">
+      <main className="max-w-6xl mx-auto px-5 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand col */}
-        <section className="col-span-2 md:col-span-1 space-y-1">
+        <section className="col-span-1 md:col-span-1 space-y-1">
           <p className="font-cormorant text-gold text-xl font-semibold tracking-widest leading-none">
             Beauty Lounge
           </p>
-          <p className="text-white/80 text-[10px] tracking-[0.25em] uppercase mb-4 font-cormorant">
+          <p className="text-white/80 text-[10px] font-semibold tracking-[0.25em] uppercase mb-4 font-cormorant">
             by Ashabi
           </p>
           <p className="text-white/60 tracking-widest text-xs leading-relaxed">
@@ -53,25 +53,6 @@ export default function Footer() {
           </p>
           <ul className="space-y-3">
             {pages.map(({ label, href }) => (
-              <li key={label}>
-                <Link
-                  href={href}
-                  className="hover:text-gold transition-colors duration-200"
-                >
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* FAQs */}
-        <section>
-          <p className="text-white text-sm tracking-widest mb-5 font-cormorant">
-            FAQs
-          </p>
-          <ul className="space-y-3">
-            {faqs.map(({ label, href }) => (
               <li key={label}>
                 <Link
                   href={href}

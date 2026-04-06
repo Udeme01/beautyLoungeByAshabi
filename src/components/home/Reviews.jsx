@@ -42,7 +42,7 @@ export default function Reviews() {
 
         <div className="text-center mt-10">
           <a
-            href="/reviews"
+            href="#"
             className="text-black/40 hover:text-gold text-xs tracking-widest uppercase transition-colors duration-200"
           >
             Read All Reviews →
