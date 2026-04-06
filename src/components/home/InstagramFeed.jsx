@@ -15,7 +15,7 @@ export default function InstagramFeed() {
             href="https://instagram.com/beautyloungebyashabi"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-display text-3xl text-black font-light hover:text-gold transition-colors duration-200 inline-flex items-center gap-3"
+            className="font-cormorant text-black text-[5vw] tracking-wide md:text-3xl font-light hover:text-gold transition-colors duration-200 inline-flex items-center gap-3"
           >
             <BsInstagram size={28} color="#E1306C" />
             @beautyloungebyashabi

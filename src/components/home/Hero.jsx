@@ -17,11 +17,11 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-5 max-w-3xl mx-auto">
-        <p className="text-white text-xs tracking-[0.4em] uppercase mb-6 font-cormorant">
+      <div className="relative z-10 text-center px-5 max-w-3xl mx-auto space-y-6">
+        <p className="text-white text-xs tracking-[0.3em] uppercase font-cormorant">
           Ibadan&apos;s Premier Hair Brand
         </p>
-        <h1 className="text-5xl md:text-7xl text-white font-light leading-tight mb-6 font-cormorant">
+        <h1 className="text-4xl md:text-7xl text-white font-bold leading-tight font-cormorant">
           Building Confidence
           <br />
           <span className="text-gold italic">Through Your Crown</span>
@@ -47,12 +47,12 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <p className="text-white/30 text-[10px] tracking-widest uppercase">
           Scroll
         </p>
         <div className="w-px h-10 bg-linear-to-b from-white/30 to-transparent" />
-      </div>
+      </div> */}
     </section>
   );
 }

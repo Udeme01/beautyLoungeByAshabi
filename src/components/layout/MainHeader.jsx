@@ -27,10 +27,10 @@ export default function MainHeader() {
       }`}
     >
       {/* Top strip */}
-      <h1 className="w-full py-3 px-1 text-center text-[11px] tracking-widest text-white bg-black uppercase font-medium">
+      {/* <h1 className="w-full py-3 px-1 text-center text-[11px] tracking-widest text-white bg-black uppercase font-medium">
         Our birthday sale is on. Hurry!!! Order now to get a free hair
         &nbsp;·&nbsp; Ibadan, Nigeria
-      </h1>
+      </h1> */}
 
       <nav className="max-w-6xl mx-auto px-5 flex items-center justify-between h-16">
         {/* Logo */}
@@ -110,6 +110,7 @@ export default function MainHeader() {
           </li>
         </ul>
       </nav>
+
     </header>
   );
 }
