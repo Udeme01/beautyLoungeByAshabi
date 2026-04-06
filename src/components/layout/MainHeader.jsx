@@ -106,7 +106,7 @@ export default function MainHeader() {
           ))}
           <li className="pt-4">
             <Link
-              href="/contact"
+              href="#"
               className="block text-center bg-gold-light text-black font-semibold border border-gold text-xs tracking-widest uppercase py-3 hover:bg-gold transition-all"
             >
               Order Now
